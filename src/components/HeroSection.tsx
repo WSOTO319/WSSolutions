@@ -7,13 +7,14 @@ import CardItem from "./CardItem";
 
 function HeroSection() {
   return (
-    <CardItem
+    <h1>lol</h1>
+    /*<CardItem
       src="Images/img-1.jpg"
       text="Explore The Hidden Waterfall
               Deep Inside The Amazon Jungle"
       label="Adventure"
       path="/services"
-    />
+    />*/
   );
 }
 

@@ -33,7 +33,7 @@ function Navbar() {
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             WSSolutions
-            <i className="fab fa-typo3" />
+            <i className="Latoo" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -56,15 +56,15 @@ function Navbar() {
               >
                 Check Your Refund
               </Link>
-              <li className="nav-item">
-                <Link
-                  to="/services"
-                  className="nav-links"
-                  onClick={closeMobileMenu}
-                >
-                  Our Services
-                </Link>
-              </li>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/services"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Services
+              </Link>
             </li>
           </ul>
           {button && (
