@@ -33,7 +33,6 @@ function Navbar() {
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             WSSolutions
-            <i className="Latoo" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -64,6 +63,11 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
                 Services
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
+                About Us
               </Link>
             </li>
           </ul>

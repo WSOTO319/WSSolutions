@@ -63,3 +63,29 @@
   color: #fff;
   font-size: 100px;
 }
+
+/*-------------------------------*/
+.Overall {
+  height: 500px;
+  background-color: rgb(217, 13, 13);
+}
+
+.Attempt1 {
+  background-color: rgb(14, 21, 239);
+  height: 50%;
+}
+
+.Attempt1 > h1 {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  padding-top: 75px;
+  padding-left: 25px;
+  width: 50%;
+}
+
+.Attempt1 > p {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  padding-left: 25px;
+  padding-top: 5px;
+}
