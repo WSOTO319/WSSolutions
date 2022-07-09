@@ -6,7 +6,6 @@
 }
 
 .home,
-.appointment,
 .services,
 .about,
 .sign-up,
@@ -46,15 +45,6 @@
   font-size: 100px;
 }
 
-.appointment {
-  background-image: url("./Images/img-4.jpg");
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
 .sign-up {
   background-image: url("./Images/img-8.jpg");
   background-position: center;
@@ -63,110 +53,3 @@
   color: #fff;
   font-size: 100px;
 }
-
-/*-------------------------------*/
-.HeroSectionContainer {
-  height: 658px;
-  background-color: rgb(68, 122, 214);
-  /*background-image: url("./Images/crushtaxes.jpg");*/
-  background-position: right top;
-  background-repeat: no-repeat;
-  background-size: 760px 325px;
-}
-
-.headline {
-  background-color: rgb(68, 122, 214);
-}
-
-.headline > h1 {
-  color: rgb(255, 255, 255);
-  font-family: "Open Sans", sans-serif;
-  font-size: 50px;
-  padding-top: 75px;
-  width: 100%;
-  text-align: center;
-}
-
-.headline > p {
-  color: rgb(255, 255, 255);
-  font-size: 30px;
-  padding-top: 10px;
-  max-width: 100%;
-  text-align: center;
-}
-
-.Content {
-  height: 100%;
-  background-color: rgb(68, 122, 214);
-}
-
-/*.Apptbutton {
-  background-color: black;
-  padding: 20px;
-  border-radius: 2px;
-  cursor: pointer;
-  color: rgb(255, 255, 255);
-}*/
-
-/*rgb(3, 52, 138)*/
-
-.TaxService {
-  background-color: rgb(68, 122, 214);
-  background-image: url("./Images/teamwork.jpg");
-  background-repeat: no-repeat;
-  background-position: 100% 100%;
-  background-size: 750px 380px;
-  height: 380px;
-}
-
-.TSL:visited {
-  text-decoration: none;
-}
-
-.TSL:link {
-  text-decoration: none;
-}
-
-.TSL > h1 {
-  color: #fff;
-  font-size: 50px;
-  /* padding-top: 50px;*/
-  height: 50%;
-  width: 50%;
-  padding-left: 25px;
-  font-family: "Open Sans", sans-serif;
-  height: 350px;
-}
-
-.TSL > h1 > h2 {
-  color: #fff;
-  font-size: 25px;
-  height: 50%;
-  font-family: "Open Sans", sans-serif;
-  height: 350px;
-  padding-left: 3px;
-}
-
-/*.CreditService {
-  background-color: rgb(68, 122, 214);
-  background-image: url("./Images/crushtaxes.jpg");
-  background-repeat: no-repeat;
-  background-position: 0% 100%;
-  background-size: 750px 350px;
-  height: 349px;
-  margin-top: 20px;
-}
-
-.CSL {
-  text-align: right;
-}
-
-.CSL > h1 {
-  color: #fff;
-  font-size: 55px;
-  padding-top: 60px;
-  height: 50%;
-  font-family: "Open Sans", sans-serif;
-  height: 350px;
-}
-*/

@@ -1,10 +1,8 @@
 import React from "react";
 import "../App.css";
-import { Button } from "./Button";
-//import "./HeroSection.css";
+import "./HeroSection.css";
 import "./Cards.css";
 import CardItem from "./CardItem";
-import { Link } from "react-router-dom";
 
 function HeroSection() {
   return (
@@ -21,7 +19,7 @@ function HeroSection() {
           <div className="cards__wrapper">
             <div className="cards__items">
               <CardItem
-                src="images/crushtaxes.jpg"
+                src="images/taxhelp.jpg"
                 text="Get The Best Refund For Your Situation!"
                 path="/appointments"
               />
@@ -38,6 +36,9 @@ function HeroSection() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="Location">
+        <h1>We Are Located At 269 E Burnside Ave In Bronx, NY!</h1>
       </div>
     </div>
   );

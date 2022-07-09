@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Cards.css";
 
 interface Properties {
   //using interface Properties to give type to the props in CardItem
