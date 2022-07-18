@@ -5,8 +5,13 @@ import "react-datepicker/dist/react-datepicker.css";
 import "C:/Users/Will/Documents/ReactProjects/wssolutions/src/components/Pages/Appointment.css";
 import setHours from "date-fns/setHours";
 import setMinutes from "date-fns/setMinutes";
+import { useEffect } from "react";
 
 export default function Appointment() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const [startDate, setStartDate] = useState(new Date());
 
   return (

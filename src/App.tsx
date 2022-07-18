@@ -10,6 +10,7 @@ import About from "./components/Pages/About";
 import CheckRefund from "./components/Pages/CheckRefund";
 import Appointment from "./components/Pages/Appointment";
 import Footer from "./components/Footer";
+import Training from "./components/Pages/Training";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/CheckRefund" element={<CheckRefund></CheckRefund>} />
           <Route path="/Appointments" element={<Appointment></Appointment>} />
           <Route path="/About" element={<About></About>} />
+          <Route path="/Training" element={<Training></Training>} />
         </Routes>
         <Footer />
       </Router>

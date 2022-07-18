@@ -31,7 +31,7 @@ function HeroSection() {
               <CardItem
                 src="images/TaxTime.jpg"
                 text="Want to Work With Us? Here's How"
-                path="/appointments"
+                path="/training"
               />
             </div>
           </div>
