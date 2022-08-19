@@ -15,7 +15,7 @@ export default function Appointment() {
   const [startDate, setStartDate] = useState(new Date());
 
   return (
-    <div>
+    <div className="ApptContainer">
       <h1 className="ApptH1">Make Your Appointment Now!</h1>
       <div className="MakeAppt">
         <form>

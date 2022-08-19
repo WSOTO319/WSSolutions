@@ -1,0 +1,19 @@
+.About {
+  background-color: rgb(68, 122, 214);
+  color: white;
+  height: 653px;
+  padding-left: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+h2 {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 30px;
+  width: 85%;
+}

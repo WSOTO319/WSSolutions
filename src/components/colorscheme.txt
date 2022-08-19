@@ -1,0 +1,92 @@
+1. This is light blue and blue color scheme for herosection
+
+
+.HeroSectionContainer {
+  height: 100%;
+  background-color: rgb(68, 122, 214);
+  /*background-image: url("./Images/crushtaxes.jpg");*/
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 760px 325px;
+}
+
+.headline {
+  background-color: rgb(68, 122, 214);
+}
+
+.headline > h1 {
+  color: rgb(255, 255, 255);
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+  padding-top: 75px;
+  width: 100%;
+  text-align: center;
+}
+
+.headline > p {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  padding-top: 10px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.Location {
+  background-color: rgb(68, 122, 214);
+  height: 500px;
+}
+
+.Location > h1 {
+  color: rgb(255, 255, 255);
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+  padding-top: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+2. This is white and blue color scheme for herosection
+
+.HeroSectionContainer {
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  /*background-image: url("./Images/crushtaxes.jpg");*/
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 760px 325px;
+}
+
+.headline {
+  background-color: rgb(255, 255, 255);
+}
+
+.headline > h1 {
+  color: rgb(3, 44, 115);
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+  padding-top: 75px;
+  width: 100%;
+  text-align: center;
+}
+
+.headline > p {
+  color: rgb(3, 44, 115);
+  font-size: 30px;
+  padding-top: 10px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.Location {
+  background-color: rgb(255, 255, 255);
+  height: 500px;
+}
+
+.Location > h1 {
+  color: rgb(3, 44, 115);
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+  padding-top: 25px;
+  width: 100%;
+  text-align: center;
+}
